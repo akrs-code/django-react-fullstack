@@ -33,7 +33,7 @@ class Characteristic(models.Model):
 
 class FootballClub(models.Model):
     name = models.CharField(unique=True, max_length=100)
-    name = models.CharField(max_length=1000)
+    description = models.CharField(max_length=1000, blank=True, default="")
     attendance = models.IntegerField(null=True)
     city = models.CharField(max_length=100)
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
