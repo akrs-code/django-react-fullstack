@@ -8,6 +8,6 @@ router = DefaultRouter()
 router.register('country', CountryViewset, basename='country')
 router.register('league', LeagueViewset, basename='league')
 router.register('characteristic', CharacteristicViewset, basename='characteristic')
-router.register('footballclub', FootBallClubViewSet, basename='footballclub')
+router.register('footballclub', FootBallClubViewset, basename='footballclub')
 
 urlpatterns = router.urls
