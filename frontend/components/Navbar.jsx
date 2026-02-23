@@ -28,7 +28,7 @@ export default function Navbar({ content }) {
                     <IconButton sx={{ marginRight: '30px', color: 'white' }}  onClick={changeMenu}>
                         {isBigMenu ? <MenuOpenIcon /> : <MenuIcon />}
                     </IconButton>
-                    <img src={logo} alt="" width="15%"/>
+                    <img src={logo} alt="" width="8%"/>
                 </Toolbar>
             </AppBar>
             <Drawer
